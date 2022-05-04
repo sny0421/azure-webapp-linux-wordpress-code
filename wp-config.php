@@ -21,14 +21,14 @@ if (strtolower($mysql_sslconnect) != 'false' && !is_numeric(strpos($connectstr_d
         define('MYSQL_CLIENT_FLAGS', MYSQLI_CLIENT_SSL);
 }
 
-define( 'AUTH_KEY',         getenv(WP_SECRET_AUTH_KEY) );
-define( 'SECURE_AUTH_KEY',  getenv(WP_SECRET_SECURE_AUTH_KEY) );
-define( 'LOGGED_IN_KEY',    getenv(WP_SECRET_LOGGED_IN_KEY) );
-define( 'NONCE_KEY',        getenv(WP_SECRET_NONCE_KEY) );
-define( 'AUTH_SALT',        getenv(WP_SECRET_AUTH_SALT) );
-define( 'SECURE_AUTH_SALT', getenv(WP_SECRET_SECURE_AUTH_SALT) );
-define( 'LOGGED_IN_SALT',   getenv(WP_SECRET_LOGGED_IN_SALT) );
-define( 'NONCE_SALT',       getenv(WP_SECRET_NONCE_SALT) );
+define( 'AUTH_KEY',         getenv('WP_SECRET_AUTH_KEY') );
+define( 'SECURE_AUTH_KEY',  getenv('WP_SECRET_SECURE_AUTH_KEY') );
+define( 'LOGGED_IN_KEY',    getenv('WP_SECRET_LOGGED_IN_KEY') );
+define( 'NONCE_KEY',        getenv('WP_SECRET_NONCE_KEY') );
+define( 'AUTH_SALT',        getenv('WP_SECRET_AUTH_SALT') );
+define( 'SECURE_AUTH_SALT', getenv('WP_SECRET_SECURE_AUTH_SALT') );
+define( 'LOGGED_IN_SALT',   getenv('WP_SECRET_LOGGED_IN_SALT') );
+define( 'NONCE_SALT',       getenv('WP_SECRET_NONCE_SALT') );
 
 $table_prefix = 'wp_';
 
