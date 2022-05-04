@@ -12,8 +12,8 @@ define('DB_NAME', $connectstr_dbname);
 define('DB_USER', $connectstr_dbusername);
 define('DB_PASSWORD',$connectstr_dbpassword);
 define('DB_HOST', $connectstr_dbhost);
-define( 'DB_CHARSET', 'utf8' );
-define( 'DB_COLLATE', '' );
+define('DB_CHARSET', 'utf8');
+define('DB_COLLATE', '');
 
 /** Enabling support for connecting external MYSQL over SSL*/
 $mysql_sslconnect = (getenv('SC_MYSQL')) ? getenv('SC_MYSQL') : 'true';
